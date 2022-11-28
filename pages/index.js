@@ -1,4 +1,4 @@
-import quotes from "./quotes";
+import quotes from "../data/quotes";
 import { useState, useEffect } from "react";
 
 export default function Home() {
