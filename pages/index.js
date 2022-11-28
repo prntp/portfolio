@@ -13,7 +13,7 @@ export default function Home() {
         {number != -1 ? (
           <>
             <h4 className="font-semibold text-3xl mb-6">
-              "{quotes[number].quote}"
+              &quot;{quotes[number].quote}&quot;
             </h4>
             <h4 className="text-2xl">
               - {quotes[number].author}, {quotes[number].game}
